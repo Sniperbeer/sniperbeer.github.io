@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^nazarex.org/index.html[nc]
+RewriteRule ^(.*)$ http://www.nazarex.org/index.html/$1 [r=301,nc]
